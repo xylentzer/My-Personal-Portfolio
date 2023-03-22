@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+main {
+    width: 100%;
+    height:100%;
+    background-color: f2f2f2;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  1%;
+    background-color: #000;
+}
+nav h1{
+    color: white;
+    font-size: larger;
+}
+.nav-links ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+.row{
+    display: flex;
+}
+.column-1{
+    flex-basis: 50%;
+}
+.column-2 img{
+    width: 200px;
+    margin-left:100%;
+}
+.main-page{
+    padding: 10%;
+}
+.skills{
+    display: flex;
+}
+.skills p{
+    margin: 15px 14px;   
+}
+.skills svg{
+    width: 40px;
+    margin: 10px 5px; 
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+footer h5{
+    margin-bottom: 5px;
+}
+.footerline{
+    width: 90%;
+    height: 2px;
+    background-color: #000;
+    align-self: center;
+}
+footer small{
+    padding: 10px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-media i{
+    margin: 5px;
+    font-size: 20px;
+    margin-top: 2px;
+}
+.contact h1{
+    margin: 15px 0px;
+}
+.contact {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px
+}
+.contact-container{
+    display: flex;
+    justify-items: center;
+    align-self: center;
+    flex-direction: column;
+    gap: 7px;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.contact-container input {
+    border: solid ;
+    outline: none;
+    margin: 1px 2px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 390px;
+    text-align: center;
+}
+.contact-container form{
+    padding: 30px;
+}
+.contact p{
+    font-weight: bolder;
+}
+.contact-container textarea{
+    border: solid ;
+    outline: none;
+    margin: 1px 2px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 390px;
+    text-align: center;
+}
+.contact-container button{
+    align-self: center;
+    padding: 6px;
+    width: 100px;
+    margin:5px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px;
+    cursor: pointer;
+}
